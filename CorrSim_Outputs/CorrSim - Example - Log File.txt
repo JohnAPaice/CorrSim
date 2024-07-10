@@ -1,0 +1,56 @@
+File Prefix:		CorrSim - Example - 
+Observation Length:	1000.0s
+Time Resolution:	0.0625s
+Number of Bins:		16000s
+Mean Counts/s (A):	1000.0
+Mean Counts/s (B):	5000.0
+F_rms_A:		0.3
+F_rms_B:		0.1
+Apply Red Noise:	AB
+Apply Poisson Noise:	AB
+Apply Readout Noise:	AB
+Readout Noise (A):	4.5
+Readout Noise (B):	4.5
+Apply Scin. Noise:	B
+
+Min Freq:		0.001
+Max Freq:		8.0
+Freq Res:		0.001
+
+Frac_RMS_Norm_1:	2e-09
+Frac_RMS_Norm_2:	8e-11
+Returned F_rms_1:	0.32922818028005185
+Returned F_rms_2:	0.11641865166929238
+
+Max Flux_1:		146.3829321309457
+Min Flux_1:		-3.8229323034965565
+Mean Flux_1:		62.492343185342314
+
+Max Flux_2:		462.90980475716395
+Min Flux_2:		180.46017196964218
+Mean Flux_2:		312.6524753296325
+
+Power Spectra:		lorentzians
+- Broken Powerlaw values:
+Power Spectral Index	:-1.5
+Pow. Spec. Break Freq.:	1.0
+Coherence Constant:	0.1
+Coherence Power:	-0.5
+Coherence Break Freq.:	0.5
+- Lorentzian values:
+Series A:		[45.0, 0.5, 0.0, 40.0, 4.0, 0.0, 25.0, 0.15, 0.1, 10.0, 0.1, 0.3, 3.0, 3.0, 3.0, 0.0, 0.0, 0.0]
+Series B:		[75.0, 0.1, 0.0, 0.005, 50.0, 0.1, 0.1, 0.2, 45.0, 2.0, 0.0, 0.007, 6.0, 4.0, 3.0, 0.0, 3.0, 10.0, 8.0, 0.0, 1.0, 20.0, 25.0, 0.0]
+
+Lag Method:		phase
+Overall Lag:		-4.1888
+Model Lag Array 1:	[ 1.0000e-03  2.0000e-02  0.0000e+00  0.0000e+00 -4.1888e+00  1.0000e+00
+  0.0000e+00]
+Model Lag Array 2:	[ 2.00000000e-02  2.50000000e-01  0.00000000e+00  2.36773913e+01
+ -4.66234783e+00  1.00000000e+00  0.00000000e+00]
+Model Lag Array 3:	[ 0.25        0.4         0.         -6.15814279 -2.4505714   1.
+  1.        ]
+Model Lag Array 4:	[0.4        5.         0.         2.86349834 1.13950055 1.
+ 1.        ]
+Model Lag Array 5:	[  5.         200.          -7.37724032  22.13172097  -8.72419145
+   1.           1.        ]
+Model Lag Array 6:	[0. 0. 0. 0. 0. 1. 0.]
